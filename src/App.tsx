@@ -3,11 +3,13 @@ import Homepage from "./pages/Homepage";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route index element={<Homepage />} />
-      </Routes>
-    </BrowserRouter>
+    <div className="app">
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Homepage />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 

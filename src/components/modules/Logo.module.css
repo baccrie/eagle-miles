@@ -1,0 +1,19 @@
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logoIcon {
+  fill: var(--color-brand--1);
+  height: 3rem;
+  width: 3rem;
+
+  margin-right: 1rem;
+}
+
+.logoContainer h1 {
+  color: var(--color-brand--1);
+  font-weight: 700;
+  font-size: 3rem;
+  letter-spacing: -1px;
+}

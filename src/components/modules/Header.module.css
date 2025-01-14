@@ -1,0 +1,71 @@
+.header {
+  background-color: var(--color-brand--1);
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, #000, rgba(0, 0, 0, 0.5)),
+    url("/public/images/pexels-freestockpro-1008155.jpg");
+
+  background-size: cover;
+  background-position: center;
+}
+
+/* top nav */
+.nav {
+  width: 80%;
+  height: 10vh;
+  margin: auto;
+
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav nav {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+
+  align-self: stretch;
+}
+
+.nav nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 100%;
+}
+
+.nav nav ul li:not(:last-of-type) {
+  margin-right: 2rem;
+}
+
+.nav nav a:link,
+.nav nav a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.otherNav li:last-of-type {
+  background-color: var(--color-brand--1);
+  padding: 0.5rem 3rem;
+  border-radius: 40px;
+}
+
+/* main headersection */
+.header .main {
+  width: 60%;
+  height: 80vh;
+  text-align: center;
+  margin: auto;
+  padding-top: 20rem;
+}
+
+.main h2 {
+  text-align: center;
+  font-size: 6rem;
+}
+
+.main p {
+  font-size: 2rem;
+}
