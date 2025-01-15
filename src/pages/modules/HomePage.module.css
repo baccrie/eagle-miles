@@ -1,3 +1,87 @@
-.homepage {
-  background-color: red;
+/* main section */
+
+.main {
+  width: 70%;
+  margin: auto;
+  padding-top: 10rem;
+}
+
+.main .about {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  font-size: 1.4rem;
+}
+
+.about .imgContainer {
+  flex-basis: 50%;
+  margin-right: 4rem;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.imgContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.about .aboutDetails {
+  flex-basis: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.imgContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+/* AboutDetails */
+.aboutDetails h2 {
+  color: #000;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.aboutDetails h3 {
+  color: #000;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.aboutDetails p {
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.aboutDetails button {
+  margin-bottom: 10rem;
+  border: none;
+  background-color: transparent;
+  font: inherit;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--color-brand--1);
+  cursor: pointer;
+}
+
+.aboutStats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.statOption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000;
+}
+
+.statOption span:first-of-type {
+  font-size: 3rem;
+  color: var(--color-brand--1);
+  font-weight: 700;
 }

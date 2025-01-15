@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  font-family: "Manrope", sans-serif;
+  font-family: "Ubuntu", "Manrope", sans-serif;
   color: var(--color-light--1);
   font-weight: 400;
   line-height: 1.6;
