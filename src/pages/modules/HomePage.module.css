@@ -11,10 +11,11 @@
   margin: auto;
   display: flex;
   font-size: 1.4rem;
+  margin-bottom: 10rem;
 }
 
 .about .imgContainer {
-  flex-basis: 50%;
+  flex-basis: 55%;
   margin-right: 4rem;
   object-fit: cover;
   overflow: hidden;
@@ -27,8 +28,7 @@
 }
 
 .about .aboutDetails {
-  flex-basis: 50%;
-
+  flex-basis: 45%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -58,7 +58,7 @@
 }
 
 .aboutDetails button {
-  margin-bottom: 10rem;
+  margin-bottom: 6rem;
   border: none;
   background-color: transparent;
   font: inherit;
@@ -84,4 +84,129 @@
   font-size: 3rem;
   color: var(--color-brand--1);
   font-weight: 700;
+}
+
+/* Popular Destinations */
+.popularDest {
+  margin-bottom: 10rem;
+}
+
+.popularDest h2 {
+  color: #000;
+  font-weight: 600;
+  font-size: 3rem;
+  letter-spacing: -1px;
+}
+
+.popularDest p {
+  color: #000;
+  font-size: 1.4rem;
+  width: 50%;
+  margin-bottom: 4rem;
+}
+
+.destinationWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.destination {
+  flex-basis: 24%;
+}
+
+.destination .imgContainer {
+  border-radius: 30px;
+  overflow: hidden;
+  width: 100%rem;
+  height: 30rem;
+  object-fit: cover;
+  margin-bottom: 2rem;
+}
+
+.imgContainer img {
+  width: 100%;
+  height: 100%;
+}
+.destinationDetails {
+}
+
+.destinationDetails span {
+  color: #000;
+  font-size: 1.6rem;
+}
+
+/* offers section */
+.offers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.offers * {
+  flex-basis: 45%;
+}
+
+.offerSect1 h3 {
+  color: #000;
+  font-weight: 400;
+  font-size: 2.4rem;
+}
+
+.offerSect1 p {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+.offerSect1 button {
+  border: none;
+  color: aliceblue;
+  outline: transparent;
+  font-family: inherit;
+  padding: 1rem 3rem;
+  border-radius: 20px;
+  background-color: var(--color-brand--1);
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.offerSect2 {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 4rem;
+  justify-content: space-between;
+}
+
+.offerSect2 * {
+  flex-basis: 47%;
+}
+
+.iconWrapper {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  border: 2px solid var(--color-brand--1);
+  margin-bottom: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconWrapper .icon {
+  width: 2rem;
+  height: 2rem;
+  fill: var(--color-brand--1);
+}
+
+.offerSect2 .offerContainer {
+}
+
+.offerSect2 h4 {
+  font-size: 1.8rem;
+  color: #000;
+  font-weight: 500;
+}
+
+.offerSect2 p {
+  font-size: 1.4rem;
+  font-weight: 500;
 }
