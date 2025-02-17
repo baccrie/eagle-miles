@@ -4,6 +4,7 @@ import { GrUserExpert } from "react-icons/gr";
 import { BiSupport } from "react-icons/bi";
 import { MdViewComfyAlt } from "react-icons/md";
 import { MdPlace } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 export default function Homepage() {
   return (
@@ -147,6 +148,209 @@ export default function Homepage() {
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
                 numquam perferendis provident consectetur esse{" "}
               </p>
+            </div>
+          </div>
+        </section>
+
+        <section className={styles.travelPackages}>
+          <header>
+            <div>
+              <h3>Choose Your next adventure</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                dolorem ad, repellat hic magni autem quidem voluptas alias
+              </p>
+            </div>
+
+            <nav>
+              <ul>
+                <li>
+                  <Link to="#">popular</Link>
+                </li>
+
+                <li>
+                  <Link to="#">popular</Link>
+                </li>
+
+                <li>
+                  <Link to="#">popular</Link>
+                </li>
+
+                <li>
+                  <Link to="#">popular</Link>
+                </li>
+              </ul>
+            </nav>
+          </header>
+
+          <main>
+            <div className={styles.packageWrapper}>
+              <div className={styles.imgContainer}>
+                <img src="/images/paris.jpg" />
+              </div>
+
+              <div className={styles.packageWrapperText}>
+                <div className={styles.header}>
+                  <h4>Waterfall</h4>
+                  <div className={styles.rating}>
+                    <img />
+                    <span>4.8</span>
+                  </div>
+                </div>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repudiandae, soluta commodi! Earum
+                </p>
+              </div>
+            </div>
+
+            <div className={styles.packageWrapper}>
+              <div className={styles.imgContainer}>
+                <img src="/images/paris.jpg" />
+              </div>
+
+              <div className={styles.packageWrapperText}>
+                <div className={styles.header}>
+                  <h4>Waterfall</h4>
+                  <div className={styles.rating}>
+                    <img />
+                    <span>4.8</span>
+                  </div>
+                </div>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repudiandae, soluta commodi! Earum
+                </p>
+              </div>
+            </div>
+
+            <div className={styles.packageWrapper}>
+              <div className={styles.imgContainer}>
+                <img src="/images/paris.jpg" />
+              </div>
+
+              <div className={styles.packageWrapperText}>
+                <div className={styles.header}>
+                  <h4>Waterfall</h4>
+                  <div className={styles.rating}>
+                    <img />
+                    <span>4.8</span>
+                  </div>
+                </div>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repudiandae, soluta commodi! Earum
+                </p>
+              </div>
+            </div>
+
+            <div className={styles.packageWrapper}>
+              <div className={styles.imgContainer}>
+                <img src="/images/paris.jpg" />
+              </div>
+
+              <div className={styles.packageWrapperText}>
+                <div className={styles.header}>
+                  <h4>Waterfall</h4>
+                  <div className={styles.rating}>
+                    <img />
+                    <span>4.8</span>
+                  </div>
+                </div>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repudiandae, soluta commodi! Earum
+                </p>
+              </div>
+            </div>
+          </main>
+        </section>
+
+        <section className={styles.testimony}>
+          <header>
+            <h2>Trusted Words by People</h2>
+            <span>
+              Its is a long established fact that a reader will be distracted by
+              the readable content
+            </span>
+          </header>
+
+          <div className={styles.imgContainer}>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTutp6Rf6nH24hRGK5NBsW5LFII03lUqcgLNQ&s" />
+          </div>
+
+          <p>
+            I had an amazing experience with this travell agency! Their
+            attentive team ensured every detail was perfect. Letting me enjoy my
+            trip worry-free. Highly recommend for creating unforgettable
+            memories
+          </p>
+
+          <footer>
+            <h3>Alexander Newton</h3>
+            <span>Client</span>
+          </footer>
+        </section>
+
+        <section className={styles.blog}>
+          <div className={styles.blogAside}>
+            <h3>
+              Subscribe to our mailing list so updates can reach you for every
+              blogpost posted
+            </h3>
+            <button>Subscribe</button>
+          </div>
+          <div className={styles.blogPost}>
+            <div className={styles.blogContainer}>
+              <div className={styles.imgContainer}>
+                <img className={styles.img} src="/images/paris.jpg" />
+              </div>
+
+              <div className={styles.blogContent}>
+                <h4>
+                  Why we should be on top of your list as regards travelling
+                </h4>
+                <div className={styles.blogFooter}>
+                  <span className={styles.datePublished}>22 Dec 2024</span>
+                  <span className={styles.readTime}>12 min read</span>
+                </div>
+              </div>
+            </div>
+
+            <div className={styles.blogContainer}>
+              <div className={styles.imgContainer}>
+                <img className={styles.img} src="/images/paris.jpg" />
+              </div>
+
+              <div className={styles.blogContent}>
+                <h4>
+                  Why we should be on top of your list as regards travelling
+                </h4>
+                <div className={styles.blogFooter}>
+                  <span className={styles.datePublished}>22 Dec 2024</span>
+                  <span className={styles.readTime}>12 min read</span>
+                </div>
+              </div>
+            </div>
+
+            <div className={styles.blogContainer}>
+              <div className={styles.imgContainer}>
+                <img className={styles.img} src="/images/paris.jpg" />
+              </div>
+
+              <div className={styles.blogContent}>
+                <h4>
+                  Why we should be on top of your list as regards travelling
+                </h4>
+                <div className={styles.blogFooter}>
+                  <span className={styles.datePublished}>22 Dec 2024</span>
+                  <span className={styles.readTime}>12 min read</span>
+                </div>
+              </div>
             </div>
           </div>
         </section>
