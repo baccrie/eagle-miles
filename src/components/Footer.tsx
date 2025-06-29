@@ -27,10 +27,7 @@ export default function Footer() {
       <div className={styles.footerMain}>
         <div className={styles.footerAbout}>
           <h4>Eagle miles</h4>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos
-            laboriosam dolores
-          </p>
+          <p>Your dream is to travel , our job is to make it happen</p>
           <div className={styles.socialLinks}></div>
         </div>
 
@@ -52,17 +49,17 @@ export default function Footer() {
           <li>Contact</li>
           <li>
             <img />
-            <span> +234566789999</span>
+            <span> +234 903 367 1403</span>
           </li>
 
           <li>
             <img />
-            <span> +234566789999</span>
+            <span> +234 703 555 0146</span>
           </li>
 
           <li>
             <img />
-            <span>test@gmail.com</span>
+            <span>voyage.eaglemiles@gmail.com</span>
           </li>
         </ul>
       </div>
