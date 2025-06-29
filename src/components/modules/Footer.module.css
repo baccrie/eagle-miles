@@ -57,6 +57,8 @@
   align-items: flex-start;
   color: #fff;
   font-size: 1.6rem;
+
+  overflow: hidden;
 }
 
 .footerMain > *:not(:last-child) {

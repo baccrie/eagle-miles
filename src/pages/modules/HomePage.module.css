@@ -1,7 +1,7 @@
 /* main section */
 
 .main {
-  width: 70%;
+  width: 80%;
   margin: auto;
   padding-top: 10rem;
   margin-bottom: 6rem;
@@ -18,7 +18,6 @@
 .about .imgContainer {
   flex-basis: 55%;
   margin-right: 4rem;
-  object-fit: cover;
   overflow: hidden;
   border-radius: 1rem;
 }
@@ -26,6 +25,8 @@
 .imgContainer img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .about .aboutDetails {
@@ -120,14 +121,16 @@
   overflow: hidden;
   width: 100%rem;
   height: 30rem;
-  object-fit: cover;
   margin-bottom: 2rem;
 }
 
 .imgContainer img {
   width: 100%;
   height: 100%;
+  object-fit: 100%;
+  object-position: center;
 }
+
 .destinationDetails {
 }
 
@@ -217,11 +220,13 @@
 
 .travelPackages {
   padding: 2rem 4rem;
-  background: linear-gradient(
+  /* background: linear-gradient(
     to right,
     rgba(65, 38, 20, 0.9),
     rgba(173, 87, 26, 0.9)
-  );
+  ); */
+
+  background-color: rgb(132, 124, 118);
 
   margin-bottom: 10rem;
 }
@@ -286,7 +291,7 @@
 .travelPackages main {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
 }
 
 .packageWrapper {
@@ -309,35 +314,9 @@
   height: 100%;
 }
 
-.packageWrapper .packageWrapperText {
-}
-
-.packageWrapper .packageWrapperText .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.packageWrapper .packageWrapperText h4 {
   color: #fff;
-  width: 100%;
-  font-size: 1.4rem;
-}
-
-.packageWrapperText .rating {
-  margin-left: auto;
-  font-weight: 600;
-  font-size: 1.8rem;
-}
-
-.packageWrapper .packageWrapperText .header h4 {
-  font-size: 2rem;
-  flex-basis: 50%;
-}
-
-.packageWrapper .packageWrapperText p {
-  color: #fff;
-  font-size: 1.4rem;
-}
-
-.header {
+  font-size: 1.6rem;
 }
 
 /* Testimony */
@@ -358,11 +337,31 @@
   font-weight: 500;
 }
 
+.testimony .slider {
+  width: 50%;
+  margin: auto;
+
+  position: relative;
+  z-index: -10;
+  height: 50rem;
+  overflow: hidden;
+}
+
+.testimony .slides {
+  position: absolute;
+  top: 0;
+
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+
 .testimony .imgContainer {
   width: 20rem;
   height: 20rem;
   margin: auto;
   border-radius: 50%;
+  margin-top: 2rem;
   overflow: hidden;
   object-fit: cover;
 }
@@ -379,7 +378,7 @@
 }
 
 .testimony p {
-  width: 30%;
+  width: 60%;
   color: #000000b2;
   margin: auto;
   font-size: 1.6rem;
@@ -441,6 +440,10 @@
   align-items: flex-start;
 }
 
+.blogContainer:not(:last-of-type) {
+  margin-bottom: 2rem;
+}
+
 .blogContainer img {
   width: 100%;
   height: 100%;
@@ -474,4 +477,102 @@
 .blogFooter {
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 1300px) {
+  .main {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .main .about {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main .about {
+    width: 100%;
+  }
+
+  .travelPackages main {
+    flex-wrap: wrap;
+    row-gap: 3rem;
+  }
+
+  .packageWrapper {
+    flex-basis: 48%;
+  }
+
+  .testimony .slider {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main .about {
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main .imgContainer {
+    margin-bottom: 2rem;
+  }
+
+  .popularDest {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .popularDest p {
+    width: 80%;
+  }
+
+  .destinationWrapper {
+    flex-wrap: wrap;
+  }
+
+  .destination {
+    flex-basis: 48%;
+  }
+
+  .offers {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .offers .offerSect1 {
+    margin-bottom: 2rem;
+  }
+
+  .testimony .slider {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main .about {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .popularDest {
+    width: 95%;
+  }
+
+  .popularDest p {
+    width: 90%;
+  }
+
+  .offers {
+    width: 95%;
+  }
 }

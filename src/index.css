@@ -29,6 +29,8 @@ body {
   line-height: 1.6;
 }
 
-.app {
-  max-width: 200rem;
-}
+/* .app {
+  margin: auto;
+  width: 100%;
+  overflow: hidden;
+} */
