@@ -6,7 +6,6 @@ import {
   MdOutlineHotel,
 } from "react-icons/md";
 import { FaPassport } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import UseSlider from "../hook/useSlider";
 
