@@ -111,8 +111,8 @@ export default function Homepage() {
                 Eagle Miles: Your ultimate travel consultant, dedicated to
                 making your journeys seamless and extraordinary. We offer
                 unparalleled services tailored to your needs, from vacation
-                planning and study abroad guidance to tourism and adventure
-                travel.
+                planning and study abroad guidance, work and relocate abroad,
+                adventure travel and seamless flight ticket booking.
               </p>
               <button>Learn more</button>
             </div>
@@ -140,8 +140,8 @@ export default function Homepage() {
           <h2>Popular Destinations</h2>
           <p>
             Discover the majestic landscapes of Canada, experience the vibrant
-            cities of America, immerse yourself in Europe's rich history, or
-            chase the northern lights in Norway.
+            cities of America or UK, immerse yourself in Europe's rich history,
+            or chase the cultural richness of Africa.
           </p>
 
           <div className={styles.destinationWrapper}>
@@ -185,7 +185,7 @@ export default function Homepage() {
 
         <section className={styles.offers}>
           <div className={styles.offerSect1}>
-            <h3>Why People Choose Eagles Miles Agency</h3>
+            <h3>Why People Choose Eagles Miles Travel Company</h3>
             <p>We offer a wide range of support</p>
             <button>Contact us</button>
           </div>
