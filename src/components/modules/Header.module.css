@@ -176,7 +176,7 @@
 }
 
 /* Responsive styles for screens */
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 450px) {
   .mainNav ul {
     flex-wrap: wrap;
     justify-content: center;
@@ -189,7 +189,7 @@
   }
 
   .slider {
-    height: 50rem;
+    height: 55rem;
   }
 
   .slider p {
