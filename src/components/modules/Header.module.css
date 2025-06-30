@@ -181,6 +181,13 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+
+  .mainNav {
+  }
+
+  .slider {
+    height: 70rem;
+  }
 }
 
 @media screen and (max-width: 550px) {
