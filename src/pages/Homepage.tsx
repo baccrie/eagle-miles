@@ -195,11 +195,14 @@ export default function Homepage() {
               <div className={styles.iconWrapper}>
                 <MdTravelExplore className={styles.icon} />
               </div>
-              <h4>Travel Consultation</h4>
+              <h4>Fund</h4>
               <p>
-                We will help you make an informed decision on your travel goal
-                using four criteria: eligibility process, planning, purpose
-                definition, and cutting costs.
+                True. You will spend money to travel out.Solution for it is to
+                PLAN on it. If you're really committed to your travel goal, then
+                you can start saving up for it. We have a system that can help
+                you without straining you. We partner with a reputable and
+                reliable company to boost your savings plan to achieve your
+                travel goal financially.
               </p>
             </div>
 
@@ -218,11 +221,13 @@ export default function Homepage() {
               <div className={styles.iconWrapper}>
                 <FaPassport className={styles.icon} />
               </div>
-              <h4>Visa Application</h4>
+              <h4>Reliable Travel Agency ?</h4>
               <p>
-                We assist with the complete visa application process, taking
-                away all the stress from our clients while ensuring accuracy and
-                compliance.
+                We (Eagle Miles Travel Company) have done business with many
+                people and trust is the number one thing they say about us. You
+                can easily visit our office in Ikeja, Lagos State. We prefer to
+                see our client before we do business with you because we have a
+                name to protect.
               </p>
             </div>
 
@@ -230,10 +235,14 @@ export default function Homepage() {
               <div className={styles.iconWrapper}>
                 <MdOutlineHotel className={styles.icon} />
               </div>
-              <h4>Hotel Reservations</h4>
+              <h4>Visa Guarantee</h4>
               <p>
-                Hotel and lodging is a vital part of your travel experience. We
-                help secure the perfect stay — anywhere, anytime in the world.
+                Yes, That’s our goal too and we are very keen on getting it,
+                however the truth is that no travel agency can guarantee you
+                visa, because visa insurance is a sole discretion of the
+                consular. Nevertheless, genuine and verifiable documents give
+                you a higher chance to get the visa , and that's what we do .
+                Genuine and verifiable documents is our service.
               </p>
             </div>
           </div>

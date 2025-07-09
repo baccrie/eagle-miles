@@ -176,6 +176,13 @@
 }
 
 /* Responsive styles for screens */
+@media screen and (max-width: 400px) {
+  .main .slider {
+    height: 120rem;
+    border: 2px solid red;
+  }
+}
+
 @media screen and (max-width: 450px) {
   .mainNav ul {
     flex-wrap: wrap;
